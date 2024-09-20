@@ -53,3 +53,14 @@ let total = calculateTotalHours(1,2);
 console.log("Total Hours:")
 
 console.log(calculateTotalHours());
+
+
+
+//Task 5: Create a Function to List Employees with Free Days
+
+function listAvailableEmployees() {
+    shifts.some(day = 'Wednesday')
+        return (employees.name)
+}
+
+console.log(employees.some(listAvailableEmployees('Jim')))
