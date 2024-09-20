@@ -40,3 +40,16 @@ function assignShift(i) {
 
 //assigning monday shift to Jim
 assignShift(Jim,Monday)
+
+
+
+//Task 4: Create a Function to Calculate Total Hours Worked
+
+function calculateTotalHours(...shifts) {
+    return shifts.reduce((total, hours)=> total + hours, 0)
+}
+let total = calculateTotalHours(1,2);
+
+console.log("Total Hours:")
+
+console.log(calculateTotalHours());
