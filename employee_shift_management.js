@@ -24,3 +24,19 @@ function displayEmployeeShifts(i) {
 };
 
 employees.forEach(displayEmployeeShifts);
+
+
+
+//Task 3: Create a Function to Assign a New Shift
+
+function assignShift(i) {
+    //finding the employee
+    const found = employees.find((shifts,day) => shifts,day = i);
+
+    console.log(found)
+
+    found ? `${i} will be added to ${name} shifts` : `error ${name} allready has shift`
+};
+
+//assigning monday shift to Jim
+assignShift(Jim,Monday)
