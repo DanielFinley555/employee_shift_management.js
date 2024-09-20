@@ -8,3 +8,19 @@ employees = [
     { name: 'Gale', shifts: [{ day: 'Wednesday', hours: 9 }, { day: 'Friday', hours: 4 }] },
     { name: 'Khalil', shifts: [{ day: 'Saturday', hours: 10 }] }
 ];
+
+
+
+//Task 2: Create a Function to Display Employee Shift Details
+
+function displayEmployeeShifts(i) {
+    //Finding the individual employee names
+    console.log(`Employee: ${i.name}`)
+    //Looking into the shifts array to find the day's nd hours's for each employee
+    i.shifts.forEach(i => {
+        console.log(`Day: ${i.day}`)
+        console.log(`Hours: ${i.hours}`)
+    })
+};
+
+employees.forEach(displayEmployeeShifts);
